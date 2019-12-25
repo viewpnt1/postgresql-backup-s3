@@ -1,5 +1,4 @@
-FROM alpine:3.9
-LABEL maintainer="ITBM"
+FROM postgres:alpine-12.1
 
 RUN apk update \
 	&& apk add coreutils \
